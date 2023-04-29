@@ -33,7 +33,7 @@
     .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   left: 0;
   top: 0;
   width: 100%;
@@ -45,10 +45,10 @@
 .modal-content {
   background-color: #fff;
   margin: auto;
-  padding: 20px;
+  padding: 35px;
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-  animation: modalFadeIn 0.5s;
+  animation: modalFadeIn 0.8s;
   max-width: 500px; /* Largura máxima do modal */
   width: 90%; /* Largura do modal */
   position: absolute;
@@ -71,6 +71,97 @@
   cursor: pointer;
 }
 
+.close02 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close02:hover,
+.close02:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close03 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close03:hover,
+.close03:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+.close04 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close04:hover,
+.close04:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close05 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close05:hover,
+.close05:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close06 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close06:hover,
+.close06:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.close07 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close07:hover,
+.close07:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 @keyframes modalFadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -174,7 +265,26 @@
                             <h4 class="sub-title">oi, eu sou</h4>
                             <h1 class="title">Thialy Muniz</h1>
                             <p>Psicológa Clínica e Neuropsicóloga</p>
-                            <a class="main-btn" href="#work">saiba mais</a>
+                            <a id="myBtn07" class="main-btn" href="#home">Saiba Mais</a>
+                            <div id="myModal07" class="modal">
+                                <div class="modal-content">
+                                  <span class="close07">&times;</span>
+                                  <h2></h2>
+                                  <p> 
+                                    * Formação em Psicologia clínica pela UNIFG, em 2018. <br>
+                                            * Especialista em Neuropsicologia clínica, pela IDE em 2021.<br> <br>
+                                            <strong>Curso de capacitação e extensão:</strong> <br> <br>
+                                          
+                                            * Superior tecnológico em Marketing, 2014.  <br>
+                                             * Formação em Técnicas de Gestalt Terapia <br>
+                                           * Gestalt-terapia com crianças <br>
+                                            * Orientação e reorientação profissional <br>
+                                             * Curso de Capacitação em Terapia do Esquema
+                                      
+                                  </p>
+                                </div>
+                              </div>
+                            
                         </div> <!-- header content right -->
                     </div>
                     <div class="col-lg-6 offset-xl-1">
@@ -242,7 +352,7 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-30">
                         <h2 class="title">Serviços</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                        <p>encontre o serviço que se encaixa melhor com a sua necessidade.</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -254,7 +364,8 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title"><a id="myBtn" href="#service">Psicoterapia Presencial</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                            <p>momento de conexão, ampliação de possibilidades e autocuidado
+                                emocional...</p>
                             <div id="myModal" class="modal">
                                 <div class="modal-content">
                                   <span class="close">&times;</span>
@@ -275,8 +386,22 @@
                             <i class="lni-world"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="#contact">Psicoterapia on-line</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                            <h4 class="service-title"><a id="myBtn02" href="#service">Psicoterapia on-line</a></h4>
+                            <p>Seu autocuidado de qualquer lugar do mundo, tendo
+                                um dispositivo com internet e um local privado...</p>
+                            <div id="myModal02" class="modal">
+                                <div class="modal-content">
+                                  <span class="close02">&times;</span>
+                                  <h2></h2>
+                                  <p>A psicoterapia on-line segue as mesmas orientações da presencial. A única diferença é que você tem a liberdade de fazer as sessões de onde você estiver (em qualquer lugar do país).
+
+                                    As sessões também são realizadas, em média, uma vez por semana com a duração de 45 a 50 minutos, com foco no público adolescente e adulto.
+                                    
+                                    Para você realizar as sessões nesse formato, será necessário um local reservado, onde você possa ficar a vontade para falar sobre o que precisar, um computador ou smartphone e uma boa conexão de internet, além de fones de ouvido para que o sigilo e o conforto prevaleçam.
+                                    
+                                    Público atendido: adolescente e adulto.</p>
+                                </div>
+                              </div>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -286,8 +411,19 @@
                             <i class="lni-user"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="#">Avaliação Neuropsicólogica</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis.</p>
+                            <h4 class="service-title"><a id="myBtn03" href="#service">Avaliação Neuropsicólogica</a></h4>
+                            <p>procedimento de investigação clínica cujo objetivo é  ...</p>
+                            <div id="myModal03" class="modal">
+                                <div class="modal-content">
+                                  <span class="close03">&times;</span>
+                                  <h2></h2>
+                                  <p>O exame neuropsicológico é um procedimento de investigação clínica cujo objetivo é esclarecer questões sobre funcionamento cognitivo, comportamental e – em menor grau – emocional de um paciente. O principal objetivo é compreender como determinada condição patológica afeta o comportamento observável do paciente (entendido aqui como cognição, comportamento propriamente dito e emoção). Domínios avaliados: Linguagem, memória, atenção, funções executivas, praxia, inteligência, leitura/escrita e comportamento motor.
+
+                                    São necessários de 8 a 10 encontros, com duração de 1 hora para a realização da avaliação, apenas no formato presencial.
+                                    
+                                    Público atendido: criança, adolescente e adulto.</p>
+                                </div>
+                              </div>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -297,8 +433,23 @@
                             <i class="lni-vector"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="#">Orientação e reorientação profissional</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis .</p>
+                            <h4 class="service-title"><a id="myBtn04" href="#service">Orientação e reorientação profissional</a></h4>
+                            <p>É um processo de auxilio para escolha de profissão...</p>
+                            <div id="myModal04" class="modal">
+                                <div class="modal-content">
+                                  <span class="close04">&times;</span>
+                                  <h2></h2>
+                                  <p>A Orientação profissional é um processo que tem como objetivo auxiliar a pessoa a escolher sua profissão, compreendendo a situação específica dele. Possibilita o indivíduo a ter um norte sobre o campo profissional a seguir, além de promover o autoconhecimento, o alinhamento entre características pessoais e profissão e da relação trabalho e projeto de vida.
+
+                                    A Orientação Profissional é dividida em três módulos: Criação do Perfil Pessoal, Informações das Profissões e a Tomada de decisão.
+                                    
+                                    A reorientação profissional serve para as pessoas que já ingressaram na faculdade ou já estão inseridas no mercado de trabalho, porém, não estão satisfeitas e realizadas com a profissão que escolheu. É uma oportunidade para que elas se conheçam melhor, se informem sobre as profissões, para assim, tomar uma decisão de maneira mais consciente.
+                                    
+                                    São necessários de 8 a 10 encontros, com duração de 1 hora para a realização da avaliação, podendo ser realizado no formato presencial ou on-line.
+                                    
+                                    Público atendido: adolescente e adulto.</p>
+                                </div>
+                              </div>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -308,8 +459,17 @@
                             <i class="lni-pencil-alt"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="#">Terapia Infantil</a></h4>
-                            <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                            <h4 class="service-title"><a id="myBtn05" href="#service">Terapia Infantojuvenil</a></h4>
+                            <p>Atendimento presencial com crianças a partir 7 anos de idade em Recife/PE...</p>
+                            <div id="myModal05" class="modal">
+                                <div class="modal-content">
+                                  <span class="close05">&times;</span>
+                                  <h2></h2>
+                                  <p>Na psicoterapia infantil, os primeiros encontros são com os pais ou responsáveis pela criança. Neste momento a criança não participa, apenas pais/responsáveis. As sessões iniciais podem durar de 1 a 3 encontros a depender de cada caso. A partir daí, os encontros são realizados apenas com a criança.
+
+                                    Sessões realizadas no formato presencial em Boa viagem, Recife/PE</p>
+                                </div>
+                              </div>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -319,8 +479,16 @@
                             <i class="lni-shift-left"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="#">Sublocação de turnos</a></h4>
+                            <h4 class="service-title"><a id="myBtn06" href="#service">Sublocação de turnos</a></h4>
                             <p>Sala de atendimentos para psicólogos localizada Boa Viagem, Recife/PE</p>
+                            <div id="myModal06" class="modal">
+                                <div class="modal-content">
+                                  <span class="close06">&times;</span>
+                                  <h2></h2>
+                                  <p><img src="assets/images/consultorio03.jpeg" alt="momtagemsala"> <br>
+                                    </p>
+                                </div>
+                              </div>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -646,6 +814,134 @@
           }
         }
         
+
+
+
+
+        var modal02 = document.getElementById("myModal02");
+        var btn02 = document.getElementById("myBtn02");
+        var span02 = document.getElementsByClassName("close02")[0];
+        
+        btn02.onclick = function() {
+          modal02.style.display = "block";
+        }
+        
+        span02.onclick = function() {
+          modal02.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal02) {
+            modal02.style.display = "none";
+          }
+        }
+
+
+        var modal03 = document.getElementById("myModal03");
+        var btn03 = document.getElementById("myBtn03");
+        var span03 = document.getElementsByClassName("close03")[0];
+        
+        btn03.onclick = function() {
+          modal03.style.display = "block";
+        }
+        
+        span03.onclick = function() {
+          modal03.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal03) {
+            modal03.style.display = "none";
+          }
+        }
+
+
+
+        var modal04 = document.getElementById("myModal04");
+        var btn04 = document.getElementById("myBtn04");
+        var span04 = document.getElementsByClassName("close04")[0];
+        
+        btn04.onclick = function() {
+          modal04.style.display = "block";
+        }
+        
+        span04.onclick = function() {
+          modal04.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal04) {
+            modal04.style.display = "none";
+          }
+        }
+
+
+
+
+        var modal05 = document.getElementById("myModal05");
+        var btn05 = document.getElementById("myBtn05");
+        var span05 = document.getElementsByClassName("close05")[0];
+        
+        btn05.onclick = function() {
+          modal05.style.display = "block";
+        }
+        
+        span05.onclick = function() {
+          modal05.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal05) {
+            modal05.style.display = "none";
+          }
+        }
+
+
+
+
+        var modal06 = document.getElementById("myModal06");
+        var btn06 = document.getElementById("myBtn06");
+        var span06 = document.getElementsByClassName("close06")[0];
+        
+        btn06.onclick = function() {
+          modal06.style.display = "block";
+        }
+        
+        span06.onclick = function() {
+          modal06.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal06) {
+            modal06.style.display = "none";
+          }
+        }
+
+
+
+
+
+        var modal07 = document.getElementById("myModal07");
+        var btn07 = document.getElementById("myBtn07");
+        var span07 = document.getElementsByClassName("close07")[0];
+        
+        btn07.onclick = function() {
+          modal07.style.display = "block";
+        }
+        
+        span07.onclick = function() {
+          modal07.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal07) {
+            modal07.style.display = "none";
+          }
+        }
+
+
+
+
         
             </script>
    
